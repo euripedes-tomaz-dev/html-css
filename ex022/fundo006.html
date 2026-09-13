@@ -6,21 +6,33 @@
     <title>Document</title>
     <style>
         body{
-            height: 97vh;
-            background-image: url('imagens/wallpaper002.jpg');
-            background-repeat: repeat-y;
-            background-size: cover;
+            /* height: 100vh;
+            background-color: black;
+            background-image: url('imagens/wallpaper002.jpg ');
             background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed; */
+
+            /* ShortHand 
+                background: [color] [image] [repeat] [attachment] [position] / [size]
+            */
+
+            background: black url(imagens/wallpaper002.jpg)  no-repeat fixed center center / cover
+        
+
+
         }
 
         main{
-            max-width: 400px;
-            margin: auto;
-            border: 1px solid black;
-            padding: 15px;
-            border-radius: 10px;
             background-color: white;
+            max-width: 400px;
+            padding: 10px;
+            margin: auto;
+            border: 1px solid darkblue;
+            border-radius: 10px;
         }
+
     </style>
 </head>
 <body>
