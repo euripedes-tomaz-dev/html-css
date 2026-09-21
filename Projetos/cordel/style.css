@@ -1,0 +1,96 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+
+:root{
+    --fonte-titulo: "Passion One", Sans-serif;
+    --fonte-principal: "Sriracha", sans-serif;
+
+}
+
+*{
+    margin: 0;
+}
+
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-bottom: 50px;
+    max-width: 100%;
+    min-width: 150px;
+    margin-bottom: 50px;
+}
+
+header h1{
+    font-family: var(--fonte-titulo);
+    font-size: 9em;
+    font-weight: bold;
+}
+
+header p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;;
+    font-weight: bold;
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+}
+
+header a:hover{
+    text-decoration: underline;
+}
+
+pre{
+    font-size: 3em;
+    font-family: var(--fonte-principal);
+}
+
+.joaninha{
+    color: white;
+    background: url(pacote-d012/imagens/background001.jpg) center center  / cover no-repeat fixed;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.27);
+}
+
+.texto-joaninha{
+    background-color: #000E00;
+    display: block;
+    max-width: 700px;
+    min-width: 300px;
+    margin-left: 20px;
+}
+
+.carta{
+    color: white;
+    background: url(pacote-d012/imagens/background002.jpg) center center / cover no-repeat fixed;
+
+}
+
+.texto-carta{
+    background-color: rgba(0, 0, 0, 0.6);
+    display: block;
+    max-width: 700px;
+    min-width: 300px;
+    margin-left: 20px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
+
+
