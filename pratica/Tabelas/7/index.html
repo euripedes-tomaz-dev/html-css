@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colgroup (Estilo de Colunas)</title>
+    <style>
+        table{
+            width: 500px;
+            border-collapse: collapse;
+        }
+        
+        th,td{
+            border: 1px solid black;
+            padding: 10px;
+        }
+        
+        .destaque{
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <colgroup>
+            <col class="destaque" span="2">
+        </colgroup>
+        <thead>
+            <tr>
+                <th scope="col">ID</th>
+                <th scope="col">Funcionário</th>
+                <th scope="col">Departamento</th>
+            </tr>
+        </thead>
+        <tbody>
+                <tr>
+                    <td>001</td>
+                    <td>Ana Paula</td>
+                    <td>Recursos Humanos</td>
+                </tr>
+                <tr>
+                    <td>002</td>
+                    <td>Carlos Mendes</td>
+                    <td>TI</td>
+                </tr>
+                <tr>
+                    <td>003</td>
+                    <td>Beatriz Lima</td>
+                    <td>Financeiro</td>
+                </tr>
+                <tr>
+                    <td>004</td>
+                    <td>Diego Ferreira</td>
+                    <td>Marketing</td>
+                </tr>
+
+        </tbody>
+    </table>  
+</body>
+</html>

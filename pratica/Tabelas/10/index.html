@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela Complexa (Todos os Conceitos)</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table{
+            width: 600px;
+            border-collapse: collapse;
+            text-align: center;
+        }
+
+        .destaque{
+            background-color:lightyellow;
+            font-weight: bold;
+        }
+        
+        thead > tr > th{
+            background-image: linear-gradient(to right,#6876DE,#7451AA);
+            color: white;
+        }
+
+        tbody > tr:nth-child(odd){
+            background-color: rgb(224, 223, 223);
+        }
+
+        tbody > tr:nth-child(even){
+            background-color: white;
+        }
+
+        th,td{
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        tfoot{
+            background-color: rgb(224, 223, 223);
+            font-weight: bolder;
+        }
+
+    </style>
+</head>
+<body>
+    <table>
+        <caption> &#x1F3C6; Classificação Regional - Campeonato 2024</caption>
+        <thead>
+            <tr>
+                <th scope="col">Posição</th>
+                <th colspan="2" scope="colgroup">Equipe</th>
+                <th scope="col">Jogos</th>
+                <th scope="col">Vitórias</th>
+                <th scope="col">Derrotas</th>
+                <th scope="col">Pontos</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">1º</th>
+                <td class="destaque">&#x1F947;</td>
+                <td class="destaque">Flamengo</td>
+                <td>15</td>
+                <td>12</td>
+                <td>3</td>
+                <td>36</td>
+            </tr>
+            <tr>
+                <th scope="row">2º</th>
+                <td>&#x1F948;</td>
+                <td>Palmeiras</td>
+                <td>15</td>
+                <td>11</td>
+                <td>4</td>
+                <td>33</td>
+            </tr>
+            <tr>
+                <th scope="row">3º</th>
+                <td>&#x1F949;</td>
+                <td>São Paulo</td>
+                <td>15</td>
+                <td>10</td>
+                <td>5</td>
+                <td>30</td>
+            </tr>
+            <tr>
+                <th scope="row">4º</th>
+                <td>-</td>
+                <td>Internacional</td>
+                <td>15</td>
+                <td>8</td>
+                <td>7</td>
+                <td>24</td>
+            </tr>
+            <tr>
+                <th scope="row">5º</th>
+                <td>-</td>
+                <td>Grêmio</td>
+                <td>15</td>
+                <td>7</td>
+                <td>8</td>
+                <td>21</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th colspan="3" scope="row">TOTAL DE EQUIPES</th>
+                <td colspan="2">75 Jogos</td>
+                <td colspan="2">Rodada 15/38</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>

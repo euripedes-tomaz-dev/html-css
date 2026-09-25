@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colspan e Rowspan</title>
+    <style>
+        table{
+            width: 400px;
+            border-collapse: collapse;
+        }
+        th, td{
+            border: 1px solid black;
+            padding: 15px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th scope="col">Horário</th>
+                <th scope="colgroup" colspan="2">Segunda</th>
+                <th scope="colgroup" colspan="2">Terça</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <th scope="row">08:00</th>
+                <td>Português</td>
+                <td>Matemática</td>
+                <td>História</td>
+                <td>Geografia</td>
+            </tr>
+
+            <tr>
+                <th scope="row">10:00</th>
+                <td colspan="2">Educação Física</td>
+                <td colspan="2">Artes</td>
+            </tr>
+
+            <tr>
+                <th scope="row">14:00</th>
+                <td>Inglês</td>
+                <td>Ciências</td>
+                <td>Português</td>
+                <td>Matemática</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

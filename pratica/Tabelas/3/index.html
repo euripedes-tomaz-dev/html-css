@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Efeito Zebrado</title>
+    <style>
+        table{
+            width: 400px;
+            border-collapse: collapse;
+        }
+
+        tbody > tr:nth-child(odd){
+            background-color: gray;
+        }
+
+        tbody > tr:nth-child(even){
+            background-color: white;
+        }
+
+        th,td{
+            border: 1px solid black;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th scope="col">Dia</th>
+                <th scope="col">Temperatura</th>
+                <th scope="col">Umidade</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Segunda</td>
+                <td>28°C</td>
+                <td>65%</td>
+            </tr>
+            <tr>
+                <td>Terça</td>
+                <td>30°C</td>
+                <td>60%</td>
+            </tr>
+            <tr>
+                <td>Quarta</td>
+                <td>26°C</td>
+                <td>70%</td>
+            </tr>
+            <tr>
+                <td>Quinta</td>
+                <td>29°C</td>
+                <td>62%</td>
+            </tr>
+            <tr>
+                <td>Sexta</td>
+                <td>31°C</td>
+                <td>58%</td>
+            </tr>
+
+        </tbody>
+    </table>
+</body>
+</html>

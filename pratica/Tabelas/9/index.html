@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cabeçalho Fixo ao Rolar</title>
+        <style>
+            body{
+                font-family: Arial, Helvetica, sans-serif;
+            }
+
+            table{
+                border-collapse: collapse;
+                position: relative;
+                width: 600px;
+            }
+
+            th{
+                position: sticky;
+                top: 0;
+                background-color: blueviolet;
+            }
+
+            th, td{
+                border: 1px solid black;
+                padding: 10px;
+            }
+        </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+            <th scope="col">ID</th>
+            <th scope="col">Título</th>
+            <th scope="col">Autor</th>
+            <th scope="col">Ano</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>001</td>
+                <td>O Cortiço</td>
+                <td>Aluísio Azevedo</td>
+                <td>1890</td>
+            </tr>
+            <tr>
+                <td>002</td>
+                <td>Dom Casmurro</td>
+                <td>Machado de Assis</td>
+                <td>1899</td>
+            </tr>
+            <tr>
+                <td>003</td>
+                <td>Grande Sertão: Veredas</td>
+                <td>Guimarães Rosa</td>
+                <td>1956</td>
+            </tr>
+            <tr>
+                <td>004</td>
+                <td>Memórias Póstumas de Brás Cubas</td>
+                <td>Machado de Assis</td>
+                <td>1881</td>
+            </tr>
+            <tr>
+                <td>005</td>
+                <td>Capitães da Areia</td>
+                <td>Jorge Amado</td>
+                <td>1937</td>
+            </tr>
+            <tr>
+                <td>006</td>
+                <td>Vidas Secas</td>
+                <td>Graciliano Ramos</td>
+                <td>1938</td>
+            </tr>
+            <tr>
+                <td>007</td>
+                <td>O Pagador de Promessas</td>
+                <td>Dias Gomes</td>
+                <td>1962</td>
+            </tr>
+
+            <tr>
+            <td>008</td>
+            <td>Gabriela, Cravo e Canela</td>
+            <td>Jorge Amado</td>
+            <td>1958</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
